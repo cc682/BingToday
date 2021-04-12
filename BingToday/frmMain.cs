@@ -108,7 +108,7 @@ namespace BingToday
             string strUrl = GetBingBgUrl();
             if (strUrl == null)
             {
-                Tips("BingToday", "Load bg image failed.");
+                //Tips("BingToday", "Load bg image failed.");
                 return;
             }
 
